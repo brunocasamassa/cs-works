@@ -1,0 +1,905 @@
+fileFormatVersion: 2
+guid: 03b0cd75833a3104d9a302b2ac9ba7a6
+timeCreated: 1476606479
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: deckcard_0
+    21300002: deckcard_1
+    21300004: deckcard_2
+    21300006: deckcard_3
+    21300008: deckcard_4
+    21300010: deckcard_5
+    21300012: deckcard_6
+    21300014: deckcard_7
+    21300016: deckcard_8
+    21300018: deckcard_9
+    21300020: deckcard_10
+    21300022: deckcard_11
+    21300024: deckcard_12
+    21300026: deckcard_13
+    21300028: deckcard_14
+    21300030: deckcard_15
+    21300032: deckcard_16
+    21300034: deckcard_17
+    21300036: deckcard_18
+    21300038: deckcard_19
+    21300040: deckcard_20
+    21300042: deckcard_21
+    21300044: deckcard_22
+    21300046: deckcard_23
+    21300048: deckcard_24
+    21300050: deckcard_25
+    21300052: deckcard_26
+    21300054: deckcard_27
+    21300056: deckcard_28
+    21300058: deckcard_29
+    21300060: deckcard_30
+    21300062: deckcard_31
+    21300064: deckcard_32
+    21300066: deckcard_33
+    21300068: deckcard_34
+    21300070: deckcard_35
+    21300072: deckcard_36
+    21300074: deckcard_37
+    21300076: deckcard_38
+    21300078: deckcard_39
+    21300080: deckcard_40
+    21300082: deckcard_41
+    21300084: deckcard_42
+    21300086: deckcard_43
+    21300088: deckcard_44
+    21300090: deckcard_45
+    21300092: deckcard_46
+    21300094: deckcard_47
+    21300096: deckcard_48
+    21300098: deckcard_49
+    21300100: deckcard_50
+    21300102: deckcard_51
+    21300104: deckcard_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 25
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: deckcard_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_7
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_9
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_11
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_12
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 252
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_14
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_19
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_20
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_22
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_23
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_24
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_25
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_27
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_28
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_30
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_31
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_32
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_33
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_34
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_35
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_36
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_37
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_38
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 126
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_40
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_41
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_42
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_43
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_44
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_45
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_46
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_47
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_48
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_49
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_50
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_51
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 63
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    - name: deckcard_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 31.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

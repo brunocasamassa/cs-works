@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 22888f3d2fe4e0d4da5831492a3fa085
+timeCreated: 1473831622
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: airplane2_0
+    21300002: airplane2_1
+    21300004: airplane2_2
+    21300006: airplane2_3
+    21300008: airplane2_4
+    21300010: airplane2_5
+    21300012: airplane2_6
+    21300014: airplane2_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: airplane2_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 66
+        width: 56
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: airplane2_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 66
+        width: 56
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: airplane2_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 66
+        width: 56
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: airplane2_3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 66
+        width: 56
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: airplane2_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: -18.5}
+        - {x: -29, y: -27.5}
+        - {x: 25, y: -27.5}
+        - {x: 32, y: -13.5}
+        - {x: 32, y: 27.5}
+    - name: airplane2_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 6
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: -6.5}
+        - {x: -15, y: -27.5}
+        - {x: 7, y: -27.5}
+        - {x: 22, y: -19.5}
+        - {x: 32, y: -5.5}
+        - {x: 32, y: 27.5}
+    - name: airplane2_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 6
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: -7.5}
+        - {x: -19, y: -27.5}
+        - {x: 15, y: -27.5}
+        - {x: 32, y: -4.5}
+        - {x: 32, y: 27.5}
+    - name: airplane2_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 6
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: -7.5}
+        - {x: -19, y: -27.5}
+        - {x: 15, y: -27.5}
+        - {x: 32, y: -4.5}
+        - {x: 32, y: 27.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
