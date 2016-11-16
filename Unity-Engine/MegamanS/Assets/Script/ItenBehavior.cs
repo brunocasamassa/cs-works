@@ -6,7 +6,8 @@ public class ItenBehavior : MonoBehaviour {
 	public Material blinkMat;
 	Material originalMat;
 	public GameObject explosion;
-	public int lives=4;
+	public int lives=1;
+
 
 	void Start(){
 		originalMat = mySprite.material;
@@ -22,7 +23,7 @@ public class ItenBehavior : MonoBehaviour {
 			Destroy (gameObject);
 		}
 		if (col.relativeVelocity.magnitude > 10) {
-			lives--;
+			lives--;	
 			mySprite.material = blinkMat;
 			//mySprite.color = Color.red;
 			Invoke ("ReturnToColor", 0.1f);

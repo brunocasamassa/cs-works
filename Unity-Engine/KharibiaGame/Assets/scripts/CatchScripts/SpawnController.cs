@@ -48,6 +48,7 @@ public class SpawnController : MonoBehaviour {
 			Vector3 spawnPosition = new Vector3 (Random.Range (-maxWidth, maxWidth), transform.position.y);
 			Quaternion spawnRotation = Quaternion.identity;
 			Instantiate (obj, spawnPosition, spawnRotation);
+
 				
 		}
 	}

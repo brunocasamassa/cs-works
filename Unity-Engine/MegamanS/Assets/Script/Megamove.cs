@@ -2,21 +2,33 @@
 using System.Collections;
 
 public class Megamove : MonoBehaviour {
+	int cont=0;
+	public GameObject obj; 
 	[SerializeField] private Animator anim;
 	float inputX=0;
 	[SerializeField] Rigidbody2D rdb;
 	[SerializeField] float velocity=4;
 	[SerializeField] GameObject prefabShoot;
-	bool walkMotion=true;
+	bool walkMotion=true;	
 	float rayGround=0;
 	float rayWall=0;
+	float tempo=0.3f;
+	int life =5;
     [SerializeField] AudioSource source;
     [SerializeField] AudioClip[] audios;
+	[SerializeField] TextMesh texture_numbers;
 	// Use this for initialization
+
+
 	void Start () {
+		
 	}
+
 	// Update is called once per frame
 	void Update () {
+
+		SpawnEnemy();
+
 		inputX = Input.GetAxis ("Horizontal");
 		anim.SetFloat ("velocity",Mathf.Abs(inputX));
 		Flip ();
@@ -42,6 +54,7 @@ public class Megamove : MonoBehaviour {
 			anim.SetTrigger ("jump");
 			rdb.AddForce (Vector2.up * 8, ForceMode2D.Impulse);
             source.PlayOneShot(audios[2]);
+
         }
 
 		if (Input.GetButtonDown ("Jump")&&rayWall<1f&&rayWall>0) {
@@ -52,8 +65,10 @@ public class Megamove : MonoBehaviour {
 			Invoke ("WalkMotionOn",0.4f);
             source.PlayOneShot(audios[2]);
 		}
+			
 
 	}
+
 	void Shoot(){
 		GameObject instance =(GameObject) Instantiate (prefabShoot, transform.position+
 			Vector3.up,transform.rotation);
@@ -63,6 +78,7 @@ public class Megamove : MonoBehaviour {
 	}
 	void WalkMotionOn(){
 		walkMotion = true;
+	
 	}
 	void Dash(){
 		velocity = 10;
@@ -72,12 +88,16 @@ public class Megamove : MonoBehaviour {
 		velocity = 4;
 	}
 	void Flip(){
+		
+
 		if (inputX > 0) {
 			transform.rotation = Quaternion.Euler (0, 0, 0);
 		}
 		if (inputX < 0) {
 			transform.rotation = Quaternion.Euler (0, 180, 0);
+
 		}
+
 	}
 
 	// Update is called once per frame
@@ -96,4 +116,33 @@ public class Megamove : MonoBehaviour {
 		rayWall = ray2.distance;
 		anim.SetFloat ("distWall", ray2.distance);
 	}
+
+	void OnCollisionEnter2D(Collision2D col){
+		if (col.gameObject.tag  == "MONSTER" ) {
+			life--;
+			texture_numbers.text = "LIFE: " + life;
+			if (life == 0) {
+				Destroy (gameObject);
+			}
+
+		} 
+
+		
+
+	}
+
+
+	void SpawnEnemy()
+	{	
+		
+		tempo -= Time.deltaTime;	
+		if (tempo < 0) {
+			Vector3 spawnPosition = new Vector3 (Random.Range (inputX, 130), 25);
+			Quaternion spawnRotation = Quaternion.identity;
+			Instantiate (obj, spawnPosition, spawnRotation);
+			tempo = tempo + (float)(0.5f);
+		}
+	}
+
+
 }
