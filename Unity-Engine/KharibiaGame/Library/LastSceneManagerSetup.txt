@@ -1,4 +1,19 @@
 sceneSetups:
+- path: Assets/scenes/runner.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/scenes/card.unity
+  isLoaded: 0
+  isActive: 0
 - path: Assets/scenes/ilhas.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/scenes/loading.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/scenes/catch.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/scenes/Menu.unity
   isLoaded: 1
   isActive: 1

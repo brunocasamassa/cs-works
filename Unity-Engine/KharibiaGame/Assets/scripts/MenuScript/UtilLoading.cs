@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UtilLoading : MonoBehaviour {
 	
     public static UtilLoading myInstance;
     [SerializeField] GameObject fadeObject;
     [SerializeField] string autoload;
-	string[] scenes = new string[2] { "catch", "runner" };
+	string[] scenes = new string[3] { "catch", "runner", "card" };
 	int randomScenes;
 
 	// Use this for initialization
@@ -28,6 +29,7 @@ public class UtilLoading : MonoBehaviour {
     public void LoadLevelNow(string level){
 		StartCoroutine("LoadLevel", level);
     }
+		
 
 	public void StartMiniGame(){
 		StartCoroutine ("LoadMiniGame");
@@ -41,12 +43,13 @@ public class UtilLoading : MonoBehaviour {
 		FadeIn();
 		randomScenes = Random.Range(0, 3);
 		yield return StartCoroutine("MyDelayMethod", 1);
-		StaticLoading.LoadLevel (scenes[randomScenes]);
+		StaticLoading.LoadLevel(scenes[randomScenes]);
 	}
 
     IEnumerator LoadLevel(string level){
         FadeIn();
         yield return StartCoroutine("MyDelayMethod", 1);
+		print (level);
         StaticLoading.LoadLevel(level);
     }
 

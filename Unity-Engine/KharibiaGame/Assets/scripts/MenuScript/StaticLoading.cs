@@ -7,7 +7,8 @@ public class StaticLoading{
 
     public static void LoadLevel(string level)
     {
-        levelToLoad = level;
-        SceneManager.LoadScene("Loading");
+        levelToLoad = level; //invoke in InternalLoading Script
+		SceneManager.LoadScene("Loading");
+
     }
 }
