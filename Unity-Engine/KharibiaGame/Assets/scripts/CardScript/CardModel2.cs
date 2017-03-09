@@ -5,7 +5,7 @@ using UnityEngine;
 public class CardModel2 : MonoBehaviour {
 
 	/*
-	 * VALORES DOS IDs
+	 * ID VALUES: IF YOU UNDERSTAND THIS, YOU ARE A GENIUS BRO xD
 	0 = [0]
 	1 = [52,13,26,39]
 	2 = [1,14,27,40]
